@@ -12,8 +12,8 @@ torchvision 0.5.0
 
 
 # Objectives for this Project  
-By using SinGAN, I was trying to make Deep Learning Dataset using only 1 input data.   
-By Style Transfer using SinGAN, it can create random samples for Deep Learning.   
+By using SinGAN, I tried to make Deep Learning Dataset using only 1 input data.   
+By Style Transfer using SinGAN, I could create random samples for Deep Learning using just 1 data.   
 
 
 # Result for this project
