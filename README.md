@@ -1,7 +1,7 @@
 # SinGAN
-Using SinGAN Style Transfer for creating CV input data
+Using SinGAN Style Transfer for creating CV input data   
 
-
+![alt text](https://user-images.githubusercontent.com/49232148/87865634-dac61e00-c9b2-11ea-9c53-fa2be96acf8c.jpg)   
 
 
 # Used Environment   
