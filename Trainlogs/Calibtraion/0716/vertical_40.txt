@@ -1,0 +1,1343 @@
+(SinGAN) yeeun.song.conda@nipa2019-0453~SinGAN$ CUDA_VISIBLE_DEVICES=1 python main_train.py --input_name 0716_datavertical_40.png
+Random Seed  2686
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(32, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(32, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 0[02000]
+scale 0[252000]
+scale 0[502000]
+scale 0[752000]
+scale 0[1002000]
+scale 0[1252000]
+scale 0[1502000]
+scale 0[1752000]
+scale 0[2002000]
+scale 0[2252000]
+scale 0[2502000]
+scale 0[2752000]
+scale 0[3002000]
+scale 0[3252000]
+scale 0[3502000]
+scale 0[3752000]
+scale 0[4002000]
+scale 0[4252000]
+scale 0[4502000]
+scale 0[4752000]
+scale 0[5002000]
+scale 0[5252000]
+scale 0[5502000]
+scale 0[5752000]
+scale 0[6002000]
+scale 0[6252000]
+scale 0[6502000]
+scale 0[6752000]
+scale 0[7002000]
+scale 0[7252000]
+scale 0[7502000]
+scale 0[7752000]
+scale 0[8002000]
+scale 0[8252000]
+scale 0[8502000]
+scale 0[8752000]
+scale 0[9002000]
+scale 0[9252000]
+scale 0[9502000]
+scale 0[9752000]
+scale 0[10002000]
+scale 0[10252000]
+scale 0[10502000]
+scale 0[10752000]
+scale 0[11002000]
+scale 0[11252000]
+scale 0[11502000]
+scale 0[11752000]
+scale 0[12002000]
+scale 0[12252000]
+scale 0[12502000]
+scale 0[12752000]
+scale 0[13002000]
+scale 0[13252000]
+scale 0[13502000]
+scale 0[13752000]
+scale 0[14002000]
+scale 0[14252000]
+scale 0[14502000]
+scale 0[14752000]
+scale 0[15002000]
+scale 0[15252000]
+scale 0[15502000]
+scale 0[15752000]
+scale 0[16002000]
+scale 0[16252000]
+scale 0[16502000]
+scale 0[16752000]
+scale 0[17002000]
+scale 0[17252000]
+scale 0[17502000]
+scale 0[17752000]
+scale 0[18002000]
+scale 0[18252000]
+scale 0[18502000]
+scale 0[18752000]
+scale 0[19002000]
+scale 0[19252000]
+scale 0[19502000]
+scale 0[19752000]
+scale 0[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(32, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(32, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 1[02000]
+scale 1[252000]
+scale 1[502000]
+scale 1[752000]
+scale 1[1002000]
+scale 1[1252000]
+scale 1[1502000]
+scale 1[1752000]
+scale 1[2002000]
+scale 1[2252000]
+scale 1[2502000]
+scale 1[2752000]
+scale 1[3002000]
+scale 1[3252000]
+scale 1[3502000]
+scale 1[3752000]
+scale 1[4002000]
+scale 1[4252000]
+scale 1[4502000]
+scale 1[4752000]
+scale 1[5002000]
+scale 1[5252000]
+scale 1[5502000]
+scale 1[5752000]
+scale 1[6002000]
+scale 1[6252000]
+scale 1[6502000]
+scale 1[6752000]
+scale 1[7002000]
+scale 1[7252000]
+scale 1[7502000]
+scale 1[7752000]
+scale 1[8002000]
+scale 1[8252000]
+scale 1[8502000]
+scale 1[8752000]
+scale 1[9002000]
+scale 1[9252000]
+scale 1[9502000]
+scale 1[9752000]
+scale 1[10002000]
+scale 1[10252000]
+scale 1[10502000]
+scale 1[10752000]
+scale 1[11002000]
+scale 1[11252000]
+scale 1[11502000]
+scale 1[11752000]
+scale 1[12002000]
+scale 1[12252000]
+scale 1[12502000]
+scale 1[12752000]
+scale 1[13002000]
+scale 1[13252000]
+scale 1[13502000]
+scale 1[13752000]
+scale 1[14002000]
+scale 1[14252000]
+scale 1[14502000]
+scale 1[14752000]
+scale 1[15002000]
+scale 1[15252000]
+scale 1[15502000]
+scale 1[15752000]
+scale 1[16002000]
+scale 1[16252000]
+scale 1[16502000]
+scale 1[16752000]
+scale 1[17002000]
+scale 1[17252000]
+scale 1[17502000]
+scale 1[17752000]
+scale 1[18002000]
+scale 1[18252000]
+scale 1[18502000]
+scale 1[18752000]
+scale 1[19002000]
+scale 1[19252000]
+scale 1[19502000]
+scale 1[19752000]
+scale 1[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(32, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(32, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 2[02000]
+scale 2[252000]
+scale 2[502000]
+scale 2[752000]
+scale 2[1002000]
+scale 2[1252000]
+scale 2[1502000]
+scale 2[1752000]
+scale 2[2002000]
+scale 2[2252000]
+scale 2[2502000]
+scale 2[2752000]
+scale 2[3002000]
+scale 2[3252000]
+scale 2[3502000]
+scale 2[3752000]
+scale 2[4002000]
+scale 2[4252000]
+scale 2[4502000]
+scale 2[4752000]
+scale 2[5002000]
+scale 2[5252000]
+scale 2[5502000]
+scale 2[5752000]
+scale 2[6002000]
+scale 2[6252000]
+scale 2[6502000]
+scale 2[6752000]
+scale 2[7002000]
+scale 2[7252000]
+scale 2[7502000]
+scale 2[7752000]
+scale 2[8002000]
+scale 2[8252000]
+scale 2[8502000]
+scale 2[8752000]
+scale 2[9002000]
+scale 2[9252000]
+scale 2[9502000]
+scale 2[9752000]
+scale 2[10002000]
+scale 2[10252000]
+scale 2[10502000]
+scale 2[10752000]
+scale 2[11002000]
+scale 2[11252000]
+scale 2[11502000]
+scale 2[11752000]
+scale 2[12002000]
+scale 2[12252000]
+scale 2[12502000]
+scale 2[12752000]
+scale 2[13002000]
+scale 2[13252000]
+scale 2[13502000]
+scale 2[13752000]
+scale 2[14002000]
+scale 2[14252000]
+scale 2[14502000]
+scale 2[14752000]
+scale 2[15002000]
+scale 2[15252000]
+scale 2[15502000]
+scale 2[15752000]
+scale 2[16002000]
+scale 2[16252000]
+scale 2[16502000]
+scale 2[16752000]
+scale 2[17002000]
+scale 2[17252000]
+scale 2[17502000]
+scale 2[17752000]
+scale 2[18002000]
+scale 2[18252000]
+scale 2[18502000]
+scale 2[18752000]
+scale 2[19002000]
+scale 2[19252000]
+scale 2[19502000]
+scale 2[19752000]
+scale 2[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(32, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(32, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 3[02000]
+scale 3[252000]
+scale 3[502000]
+scale 3[752000]
+scale 3[1002000]
+scale 3[1252000]
+scale 3[1502000]
+scale 3[1752000]
+scale 3[2002000]
+scale 3[2252000]
+scale 3[2502000]
+scale 3[2752000]
+scale 3[3002000]
+scale 3[3252000]
+scale 3[3502000]
+scale 3[3752000]
+scale 3[4002000]
+scale 3[4252000]
+scale 3[4502000]
+scale 3[4752000]
+scale 3[5002000]
+scale 3[5252000]
+scale 3[5502000]
+scale 3[5752000]
+scale 3[6002000]
+scale 3[6252000]
+scale 3[6502000]
+scale 3[6752000]
+scale 3[7002000]
+scale 3[7252000]
+scale 3[7502000]
+scale 3[7752000]
+scale 3[8002000]
+scale 3[8252000]
+scale 3[8502000]
+scale 3[8752000]
+scale 3[9002000]
+scale 3[9252000]
+scale 3[9502000]
+scale 3[9752000]
+scale 3[10002000]
+scale 3[10252000]
+scale 3[10502000]
+scale 3[10752000]
+scale 3[11002000]
+scale 3[11252000]
+scale 3[11502000]
+scale 3[11752000]
+scale 3[12002000]
+scale 3[12252000]
+scale 3[12502000]
+scale 3[12752000]
+scale 3[13002000]
+scale 3[13252000]
+scale 3[13502000]
+scale 3[13752000]
+scale 3[14002000]
+scale 3[14252000]
+scale 3[14502000]
+scale 3[14752000]
+scale 3[15002000]
+scale 3[15252000]
+scale 3[15502000]
+scale 3[15752000]
+scale 3[16002000]
+scale 3[16252000]
+scale 3[16502000]
+scale 3[16752000]
+scale 3[17002000]
+scale 3[17252000]
+scale 3[17502000]
+scale 3[17752000]
+scale 3[18002000]
+scale 3[18252000]
+scale 3[18502000]
+scale 3[18752000]
+scale 3[19002000]
+scale 3[19252000]
+scale 3[19502000]
+scale 3[19752000]
+scale 3[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 4[02000]
+scale 4[252000]
+scale 4[502000]
+scale 4[752000]
+scale 4[1002000]
+scale 4[1252000]
+scale 4[1502000]
+scale 4[1752000]
+scale 4[2002000]
+scale 4[2252000]
+scale 4[2502000]
+scale 4[2752000]
+scale 4[3002000]
+scale 4[3252000]
+scale 4[3502000]
+scale 4[3752000]
+scale 4[4002000]
+scale 4[4252000]
+scale 4[4502000]
+scale 4[4752000]
+scale 4[5002000]
+scale 4[5252000]
+scale 4[5502000]
+scale 4[5752000]
+scale 4[6002000]
+scale 4[6252000]
+scale 4[6502000]
+scale 4[6752000]
+scale 4[7002000]
+scale 4[7252000]
+scale 4[7502000]
+scale 4[7752000]
+scale 4[8002000]
+scale 4[8252000]
+scale 4[8502000]
+scale 4[8752000]
+scale 4[9002000]
+scale 4[9252000]
+scale 4[9502000]
+scale 4[9752000]
+scale 4[10002000]
+scale 4[10252000]
+scale 4[10502000]
+scale 4[10752000]
+scale 4[11002000]
+scale 4[11252000]
+scale 4[11502000]
+scale 4[11752000]
+scale 4[12002000]
+scale 4[12252000]
+scale 4[12502000]
+scale 4[12752000]
+scale 4[13002000]
+scale 4[13252000]
+scale 4[13502000]
+scale 4[13752000]
+scale 4[14002000]
+scale 4[14252000]
+scale 4[14502000]
+scale 4[14752000]
+scale 4[15002000]
+scale 4[15252000]
+scale 4[15502000]
+scale 4[15752000]
+scale 4[16002000]
+scale 4[16252000]
+scale 4[16502000]
+scale 4[16752000]
+scale 4[17002000]
+scale 4[17252000]
+scale 4[17502000]
+scale 4[17752000]
+scale 4[18002000]
+scale 4[18252000]
+scale 4[18502000]
+scale 4[18752000]
+scale 4[19002000]
+scale 4[19252000]
+scale 4[19502000]
+scale 4[19752000]
+scale 4[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 5[02000]
+scale 5[252000]
+scale 5[502000]
+scale 5[752000]
+scale 5[1002000]
+scale 5[1252000]
+scale 5[1502000]
+scale 5[1752000]
+scale 5[2002000]
+scale 5[2252000]
+scale 5[2502000]
+scale 5[2752000]
+scale 5[3002000]
+scale 5[3252000]
+scale 5[3502000]
+scale 5[3752000]
+scale 5[4002000]
+scale 5[4252000]
+scale 5[4502000]
+scale 5[4752000]
+scale 5[5002000]
+scale 5[5252000]
+scale 5[5502000]
+scale 5[5752000]
+scale 5[6002000]
+scale 5[6252000]
+scale 5[6502000]
+scale 5[6752000]
+scale 5[7002000]
+scale 5[7252000]
+scale 5[7502000]
+scale 5[7752000]
+scale 5[8002000]
+scale 5[8252000]
+scale 5[8502000]
+scale 5[8752000]
+scale 5[9002000]
+scale 5[9252000]
+scale 5[9502000]
+scale 5[9752000]
+scale 5[10002000]
+scale 5[10252000]
+scale 5[10502000]
+scale 5[10752000]
+scale 5[11002000]
+scale 5[11252000]
+scale 5[11502000]
+scale 5[11752000]
+scale 5[12002000]
+scale 5[12252000]
+scale 5[12502000]
+scale 5[12752000]
+scale 5[13002000]
+scale 5[13252000]
+scale 5[13502000]
+scale 5[13752000]
+scale 5[14002000]
+scale 5[14252000]
+scale 5[14502000]
+scale 5[14752000]
+scale 5[15002000]
+scale 5[15252000]
+scale 5[15502000]
+scale 5[15752000]
+scale 5[16002000]
+scale 5[16252000]
+scale 5[16502000]
+scale 5[16752000]
+scale 5[17002000]
+scale 5[17252000]
+scale 5[17502000]
+scale 5[17752000]
+scale 5[18002000]
+scale 5[18252000]
+scale 5[18502000]
+scale 5[18752000]
+scale 5[19002000]
+scale 5[19252000]
+scale 5[19502000]
+scale 5[19752000]
+scale 5[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 6[02000]
+scale 6[252000]
+scale 6[502000]
+scale 6[752000]
+scale 6[1002000]
+scale 6[1252000]
+scale 6[1502000]
+scale 6[1752000]
+scale 6[2002000]
+scale 6[2252000]
+scale 6[2502000]
+scale 6[2752000]
+scale 6[3002000]
+scale 6[3252000]
+scale 6[3502000]
+scale 6[3752000]
+scale 6[4002000]
+scale 6[4252000]
+scale 6[4502000]
+scale 6[4752000]
+scale 6[5002000]
+scale 6[5252000]
+scale 6[5502000]
+scale 6[5752000]
+scale 6[6002000]
+scale 6[6252000]
+scale 6[6502000]
+scale 6[6752000]
+scale 6[7002000]
+scale 6[7252000]
+scale 6[7502000]
+scale 6[7752000]
+scale 6[8002000]
+scale 6[8252000]
+scale 6[8502000]
+scale 6[8752000]
+scale 6[9002000]
+scale 6[9252000]
+scale 6[9502000]
+scale 6[9752000]
+scale 6[10002000]
+scale 6[10252000]
+scale 6[10502000]
+scale 6[10752000]
+scale 6[11002000]
+scale 6[11252000]
+scale 6[11502000]
+scale 6[11752000]
+scale 6[12002000]
+scale 6[12252000]
+scale 6[12502000]
+scale 6[12752000]
+scale 6[13002000]
+scale 6[13252000]
+scale 6[13502000]
+scale 6[13752000]
+scale 6[14002000]
+scale 6[14252000]
+scale 6[14502000]
+scale 6[14752000]
+scale 6[15002000]
+scale 6[15252000]
+scale 6[15502000]
+scale 6[15752000]
+scale 6[16002000]
+scale 6[16252000]
+scale 6[16502000]
+scale 6[16752000]
+scale 6[17002000]
+scale 6[17252000]
+scale 6[17502000]
+scale 6[17752000]
+scale 6[18002000]
+scale 6[18252000]
+scale 6[18502000]
+scale 6[18752000]
+scale 6[19002000]
+scale 6[19252000]
+scale 6[19502000]
+scale 6[19752000]
+scale 6[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 7[02000]
+scale 7[252000]
+scale 7[502000]
+scale 7[752000]
+scale 7[1002000]
+scale 7[1252000]
+scale 7[1502000]
+scale 7[1752000]
+scale 7[2002000]
+scale 7[2252000]
+scale 7[2502000]
+scale 7[2752000]
+scale 7[3002000]
+scale 7[3252000]
+scale 7[3502000]
+scale 7[3752000]
+scale 7[4002000]
+scale 7[4252000]
+scale 7[4502000]
+scale 7[4752000]
+scale 7[5002000]
+scale 7[5252000]
+scale 7[5502000]
+scale 7[5752000]
+scale 7[6002000]
+scale 7[6252000]
+scale 7[6502000]
+scale 7[6752000]
+scale 7[7002000]
+scale 7[7252000]
+scale 7[7502000]
+scale 7[7752000]
+scale 7[8002000]
+scale 7[8252000]
+scale 7[8502000]
+scale 7[8752000]
+scale 7[9002000]
+scale 7[9252000]
+scale 7[9502000]
+scale 7[9752000]
+scale 7[10002000]
+scale 7[10252000]
+scale 7[10502000]
+scale 7[10752000]
+scale 7[11002000]
+scale 7[11252000]
+scale 7[11502000]
+scale 7[11752000]
+scale 7[12002000]
+scale 7[12252000]
+scale 7[12502000]
+scale 7[12752000]
+scale 7[13002000]
+scale 7[13252000]
+scale 7[13502000]
+scale 7[13752000]
+scale 7[14002000]
+scale 7[14252000]
+scale 7[14502000]
+scale 7[14752000]
+scale 7[15002000]
+scale 7[15252000]
+scale 7[15502000]
+scale 7[15752000]
+scale 7[16002000]
+scale 7[16252000]
+scale 7[16502000]
+scale 7[16752000]
+scale 7[17002000]
+scale 7[17252000]
+scale 7[17502000]
+scale 7[17752000]
+scale 7[18002000]
+scale 7[18252000]
+scale 7[18502000]
+scale 7[18752000]
+scale 7[19002000]
+scale 7[19252000]
+scale 7[19502000]
+scale 7[19752000]
+scale 7[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(128, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(128, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 8[02000]
+scale 8[252000]
+scale 8[502000]
+scale 8[752000]
+scale 8[1002000]
+scale 8[1252000]
+scale 8[1502000]
+scale 8[1752000]
+scale 8[2002000]
+scale 8[2252000]
+scale 8[2502000]
+scale 8[2752000]
+scale 8[3002000]
+scale 8[3252000]
+scale 8[3502000]
+scale 8[3752000]
+scale 8[4002000]
+scale 8[4252000]
+scale 8[4502000]
+scale 8[4752000]
+scale 8[5002000]
+scale 8[5252000]
+scale 8[5502000]
+scale 8[5752000]
+scale 8[6002000]
+scale 8[6252000]
+scale 8[6502000]
+scale 8[6752000]
+scale 8[7002000]
+scale 8[7252000]
+scale 8[7502000]
+scale 8[7752000]
+scale 8[8002000]
+scale 8[8252000]
+scale 8[8502000]
+scale 8[8752000]
+scale 8[9002000]
+scale 8[9252000]
+scale 8[9502000]
+scale 8[9752000]
+scale 8[10002000]
+scale 8[10252000]
+scale 8[10502000]
+scale 8[10752000]
+scale 8[11002000]
+scale 8[11252000]
+scale 8[11502000]
+scale 8[11752000]
+scale 8[12002000]
+scale 8[12252000]
+scale 8[12502000]
+scale 8[12752000]
+scale 8[13002000]
+scale 8[13252000]
+scale 8[13502000]
+scale 8[13752000]
+scale 8[14002000]
+scale 8[14252000]
+scale 8[14502000]
+scale 8[14752000]
+scale 8[15002000]
+scale 8[15252000]
+scale 8[15502000]
+scale 8[15752000]
+scale 8[16002000]
+scale 8[16252000]
+scale 8[16502000]
+scale 8[16752000]
+scale 8[17002000]
+scale 8[17252000]
+scale 8[17502000]
+scale 8[17752000]
+scale 8[18002000]
+scale 8[18252000]
+scale 8[18502000]
+scale 8[18752000]
+scale 8[19002000]
+scale 8[19252000]
+scale 8[19502000]
+scale 8[19752000]
+scale 8[19992000]
+GeneratorConcatSkip2CleanAdd(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Sequential(
+    (0) Conv2d(128, 3, kernel_size=(3, 3), stride=(1, 1))
+    (1) Tanh()
+  )
+)
+WDiscriminator(
+  (head) ConvBlock(
+    (conv) Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1))
+    (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+  )
+  (body) Sequential(
+    (block1) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block2) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+    (block3) ConvBlock(
+      (conv) Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1))
+      (norm) BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (LeakyRelu) LeakyReLU(negative_slope=0.2, inplace=True)
+    )
+  )
+  (tail) Conv2d(128, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+scale 9[02000]
+scale 9[252000]
+scale 9[502000]
+scale 9[752000]
+scale 9[1002000]
+scale 9[1252000]
+scale 9[1502000]
+scale 9[1752000]
+scale 9[2002000]
+scale 9[2252000]
+scale 9[2502000]
+scale 9[2752000]
+scale 9[3002000]
+scale 9[3252000]
+scale 9[3502000]
+scale 9[3752000]
+scale 9[4002000]
+scale 9[4252000]
+scale 9[4502000]
+scale 9[4752000]
+scale 9[5002000]
+scale 9[5252000]
+scale 9[5502000]
+scale 9[5752000]
+scale 9[6002000]
+scale 9[6252000]
+scale 9[6502000]
+scale 9[6752000]
+scale 9[7002000]
+scale 9[7252000]
+scale 9[7502000]
+scale 9[7752000]
+scale 9[8002000]
+scale 9[8252000]
+scale 9[8502000]
+scale 9[8752000]
+scale 9[9002000]
+scale 9[9252000]
+scale 9[9502000]
+scale 9[9752000]
+scale 9[10002000]
+scale 9[10252000]
+scale 9[10502000]
+scale 9[10752000]
+scale 9[11002000]
+scale 9[11252000]
+scale 9[11502000]
+scale 9[11752000]
+scale 9[12002000]
+scale 9[12252000]
+scale 9[12502000]
+scale 9[12752000]
+scale 9[13002000]
+scale 9[13252000]
+scale 9[13502000]
+scale 9[13752000]
+scale 9[14002000]
+scale 9[14252000]
+scale 9[14502000]
+scale 9[14752000]
+scale 9[15002000]
+scale 9[15252000]
+scale 9[15502000]
+scale 9[15752000]
+scale 9[16002000]
+scale 9[16252000]
+scale 9[16502000]
+scale 9[16752000]
+scale 9[17002000]
+scale 9[17252000]
+scale 9[17502000]
+scale 9[17752000]
+scale 9[18002000]
+scale 9[18252000]
+scale 9[18502000]
+scale 9[18752000]
+scale 9[19002000]
+scale 9[19252000]
+scale 9[19502000]
+scale 9[19752000]
+scale 9[19992000]
+Training time 4563.998667478561s
