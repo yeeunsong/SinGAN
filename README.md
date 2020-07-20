@@ -1,6 +1,6 @@
 # SinGAN
 Using SinGAN Style Transfer for creating CV input data   
-
+![cell_micro_images](https://user-images.githubusercontent.com/49232148/87889295-dc9fe800-ca6b-11ea-95fb-034c81078e8b.jpg)
 ![alt text](https://user-images.githubusercontent.com/49232148/87865634-dac61e00-c9b2-11ea-9c53-fa2be96acf8c.jpg)   
 
 
