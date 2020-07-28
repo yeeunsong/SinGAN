@@ -1,0 +1,18 @@
+**Properties**
+1. Perimeter Properties
+	- AuthalicRadius
+	- 다 시도해보기!
+
+2. Centroid Properties
+	- 다 시도해보기!
+
+3. Parameters of the oriented best-fit ellipse:
+4. Shape measurements:
+	- Circularity
+
+5. Bounding contour properties:
+6. Bounding disk properties:
+7. Spatial intensity measurements:
+8. Statistical measurements:
+	- Entropy: data entropy (base E)
+	- Energy: data Energy

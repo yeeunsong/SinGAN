@@ -1,0 +1,30 @@
+CUDA_VISIBLE_DEVICES=0 python main_train.py --input_name 0716_data/horizontal_10.png
+CUDA_VISIBLE_DEVICES=0 python main_train.py --input_name 0716_data/horizontal_20.png 
+CUDA_VISIBLE_DEVICES=0 python main_train.py --input_name 0716_data/horizontal_30.png
+CUDA_VISIBLE_DEVICES=0 python main_train.py --input_name 0716_data/horizontal_40.png
+
+
+
+CUDA_VISIBLE_DEVICES=1 python main_train.py --input_name 0716_data/vertical_10.png
+CUDA_VISIBLE_DEVICES=1 python main_train.py --input_name 0716_data/vertical_20.png 
+CUDA_VISIBLE_DEVICES=1 python main_train.py --input_name 0716_data/vertical_30.png
+CUDA_VISIBLE_DEVICES=1 python main_train.py --input_name 0716_data/vertical_40.png
+
+
+
+CUDA_VISIBLE_DEVICES=2 python main_train.py --input_name 0716_data/randgrid_10.png
+CUDA_VISIBLE_DEVICES=2 python main_train.py --input_name 0716_data/randgrid_20.png 
+CUDA_VISIBLE_DEVICES=2 python main_train.py --input_name 0716_data/randgrid_30.png
+CUDA_VISIBLE_DEVICES=2 python main_train.py --input_name 0716_data/randgrid_40.png
+
+
+CUDA_VISIBLE_DEVICES=2 python main_train.py --input_name 0719_data/scone.jpg
+CUDA_VISIBLE_DEVICES=2 python SR.py --input_name 0719_data/dog.jpg
+
+
+CUDA_VISIBLE_DEVICES=1 python SR.py --input_name 0719_data/squirrel.jpg
+
+
+
+
+마지막에 Enter key까지 복사해서 넣기
