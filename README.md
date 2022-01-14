@@ -25,7 +25,7 @@ By using style transfer of SinGAN, it is possible to create random samples using
 ## Result for this project
 ### Effectiveness of SinGAN as augmenting dataset for computer vision   
   1) SinGAN is not applicable for artifacts (Most of the cases). Mostly SinGAN is applicable for creating natural datasets such as cancer cells, biologic tissue, and natural scenery.   
-  3) By using 32GB memory GPU, SinGAN was able to produce 512 pixel random samples (takes about 4 to 5 hours). However, it was not possible to produce 1024 pixels due to lack of GPU memory. Therefore, to produce high-definition dataset such as biologic tissue and cells, much higher GPU memory is required.
+  3) By using 32GB memory GPU, SinGAN was able to produce 512-pixel random samples (takes about 4 to 5 hours). However, it was not possible to produce 1024-pixel samples due to the lack of GPU memory. Therefore, to produce high-definition dataset such as biologic tissue and cells, much higher GPU memory is required.
 
 
 ## Reference   
